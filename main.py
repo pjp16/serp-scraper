@@ -1,4 +1,4 @@
-!pip install requests_html
+!pip3 install requests_html
 
 import requests
 import urllib
