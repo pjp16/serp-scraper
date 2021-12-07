@@ -2,11 +2,14 @@ import streamlit as st
 import requests
 import urllib
 import pandas as pd
-import requests_html 
-# from requests_html import HTML
-# from requests_html import HTMLSession
+from requests_html import HTML
+from requests_html import HTMLSession
+
+session = HTMLSession()
 
 st.write("hello")
+
+
 
 
 
